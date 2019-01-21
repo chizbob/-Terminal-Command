@@ -1,0 +1,31 @@
+#### Exercises
+1. What is a Node module?
+
+A: A set of functions. You can make a module and reuse it externally. You make it accessible by using ```module.exports``` or ```exports```, and then using ```require``` when you refer to it outside the module. 
+
+2. What is the main difference between exports and module.exports?
+
+A: module.exports) module.exports is an empty object. You can reassign it as a property like ```module.exports.functionName = function(){}```
+
+However, ```exports``` reassignment won't be available outside the module. 
+
+If you want your module to be an object type, ```module.exports``` should be used, otherwise ```exports```.
+ 
+3. Why is using exports recommended?
+
+A: Since ```module.exports``` is intended tone an object type, it is recommended to use ```exports``` unless you are sure that the module is going to be an object type.  
+
+####Programming Questions
+
+4. Add two more functions, greetingSpanish and greetingIcelandic, in greeting.js.
+
+A: See greeting.js
+
+5. Utilize the two functions in main.js just like greetingEnglish and greetingJapanese.
+
+A: See main.js 
+
+6. Create another Node module and import it into main.js. Your Node module should have at least two functions within it. Then, call a function from your Node module in main.js.
+
+A: See my-module.js and main.js
+
