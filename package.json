@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs assignment",
+  "main": "terminal-commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chizbob/-Terminal-Command.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "soo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chizbob/-Terminal-Command/issues"
+  },
+  "homepage": "https://github.com/chizbob/-Terminal-Command#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
